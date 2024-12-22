@@ -371,7 +371,7 @@ template {
 }
 @font-face {
   font-family: "Ubuntu";
-  src: url("../fonts/Ubuntu-Regular.woff2") format("woff2");
+  src: url("../fonts/Ubuntu-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -435,7 +435,6 @@ body {
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: #bdf7c5;
 }
 
 .header__inner {
@@ -448,8 +447,70 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 80px;
+  padding: 20px 0;
   width: 100%;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0 10px;
+}
+
+.nav {
+  font-weight: 700;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0 40px;
+}
+
+.nav__link {
+  line-height: 160%;
+  color: var(--grey-800);
+}
+
+.action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0 36px;
+}
+
+.action__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.action__inner img {
+  margin-right: 4px;
+}
+
+.action__inner p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--grey-800);
+}
+
+.action__inner a {
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--main-font-color);
 }
 
 .burger {

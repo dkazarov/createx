@@ -2,15 +2,58 @@
 	position: sticky;
 	top: 0;
 	width: 100%;
-	background-color: #bdf7c5;
 }
 
 .header__inner {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 80px;
+	padding: 20px 0;
 	width: 100%;
+}
+
+.logo {
+	display: flex;
+	gap: 0 10px;
+}
+.nav {
+	font-weight: 700;
+}
+.nav__list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 0 40px;
+}
+.nav__item {
+}
+.nav__link {
+	line-height: 160%;
+	color: var(--grey-800);
+}
+.action {
+	display: flex;
+	gap: 0 36px;
+}
+.action__inner {
+	display: flex;
+	align-items: center;
+}
+.action__inner img {
+	margin-right: 4px;
+}
+.action__inner p {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 150%;
+	color: var(--grey-800);
+}
+.action__inner a {
+	font-size: 18px;
+	line-height: 150%;
+	color: var(--main-font-color);
+}
+.action__content {
 }
 
 .burger {
