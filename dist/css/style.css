@@ -377,15 +377,16 @@ template {
   font-display: swap;
 }
 :root {
-  --container-width: 1400px;
+  --container-width: 1260px;
   --container-padding-x: 15px;
   --main-font: "Ubuntu", sans-serif;
-  --main-font-color: #000;
-  --secondary-font-color: #3b2d2d;
-  --accent-color: #f00;
-  --action-color: #007bff;
-  --main-bg-color: #fff;
-  --secondary-bg-color: #fff;
+  --base-font-size: 16px;
+  --main-font-color: #1e212c;
+  --grey-800: #424551;
+  --grey-600: #787a80;
+  --grey-200: #f4f5f6;
+  --main-light: #fff;
+  --action-color: #ff5a30;
 }
 
 .container {
@@ -401,6 +402,7 @@ html {
 body {
   font-family: var(--main-font), sans-serif;
   color: var(--main-font-color);
+  font-size: var(--base-font-size);
   font-weight: 400;
 }
 
@@ -451,7 +453,7 @@ body {
 }
 
 .burger {
-  text-align: right;
+  display: none;
 }
 
 .footer__inner {

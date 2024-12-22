@@ -1,15 +1,16 @@
 :root {
-	--container-width: 1400px;
+	--container-width: 1260px;
 	--container-padding-x: 15px;
 
 	--main-font: 'Ubuntu', sans-serif;
+	--base-font-size: 16px;
+	--main-font-color: #1e212c;
 
-	--main-font-color: #000;
-	--secondary-font-color: #3b2d2d;
+	--grey-800: #424551;
+	--grey-600: #787a80;
+	--grey-200: #f4f5f6;
 
-	--accent-color: #f00;
-	--action-color: #007bff;
+	--main-light: #fff;
 
-	--main-bg-color: #fff;
-	--secondary-bg-color: #fff;
+	--action-color: #ff5a30;
 }
