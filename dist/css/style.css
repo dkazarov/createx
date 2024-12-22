@@ -370,7 +370,7 @@ template {
   font-display: swap;
 }
 @font-face {
-  font-family: "Ubuntu-Bold";
+  font-family: "Ubuntu";
   src: url("../fonts/Ubuntu-Regular.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
@@ -379,8 +379,7 @@ template {
 :root {
   --container-width: 1400px;
   --container-padding-x: 15px;
-  --main-font: "Roboto", sans-serif;
-  --second-font: "Inter", sans-serif;
+  --main-font: "Ubuntu", sans-serif;
   --main-font-color: #000;
   --secondary-font-color: #3b2d2d;
   --accent-color: #f00;
