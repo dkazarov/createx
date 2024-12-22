@@ -7,6 +7,10 @@
 }
 
 // hide nav
-.nav--hide {
-	top: 0;
+nav.nav--hide {
+	right: -50%;
+}
+
+body.no-scroll {
+	overflow: hidden;
 }

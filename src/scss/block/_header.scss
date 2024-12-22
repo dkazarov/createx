@@ -88,10 +88,12 @@
 		position: fixed;
 		width: 100%;
 		height: 100%;
-		top: 0%;
+		top: 0;
+		right: -150%;
 		transform: translateX(-50%);
 		display: block;
-		left: 50%;
+		transition: all 0.2s ease-in-out;
+		overflow: auto;
 	}
 	.nav__list {
 		position: absolute;
@@ -103,9 +105,7 @@
 		display: block;
 		text-align: center;
 		z-index: -1;
-		overflow: auto;
 		font-size: 55px;
-		display: block;
 	}
 
 	.burger {
@@ -123,4 +123,3 @@
 		font-size: 30px;
 	}
 }
-
