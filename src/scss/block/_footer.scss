@@ -1,8 +1,127 @@
+.footer {
+}
 .footer__inner {
-	height: 80px;
-	width: 100%;
-	background-color: #bdf7c5;
-	text-align: center;
+	background-color: var(--main-color);
+	padding: 80px 0;
+}
+.footer__top {
 	display: flex;
-	align-items: center;
+	justify-content: space-between;
+}
+.footer__top-left {
+	display: inline-block;
+	max-width: 500px;
+	margin-right: 15px;
+}
+.footer__top-left-social {
+	display: flex;
+	margin-bottom: 24px;
+}
+.footer__top-left p {
+	color: var(--grey-footer);
+	line-height: 150%;
+}
+.footer-logo {
+	margin-right: 60px;
+}
+.social {
+}
+.social__link {
+	display: flex;
+	gap: 0 16px;
+}
+.social__item {
+}
+.social__img {
+}
+.footer__top-right {
+	max-width: 500px;
+}
+.footer__top-right h4 {
+	color: var(--main-light);
+	margin-bottom: 24px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 150%;
+}
+.footer__top-right p {
+	color: var(--grey-footer);
+	line-height: 150%;
+	font-size: 12px;
+}
+#subscribe {
+	display: flex;
+	margin-bottom: 16px;
+}
+#subscribe input {
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 4px 0px 0px 4px;
+	width: 495px;
+	height: 44px;
+	background: rgba(255, 255, 255, 0.12);
+	color: var(--grey-footer);
+
+	&::placeholder {
+		color: var(--grey-footer);
+		padding-left: 16px;
+	}
+	&::placeholder:autofill {
+		color: var(--grey-footer);
+	}
+	&:focus {
+		outline: 1px solid rgba(255, 255, 255, 0.5);
+		background: rgba(255, 255, 255, 0.12);
+	}
+	&:autofill {
+		border: 0;
+		padding-left: 10px;
+		-webkit-text-fill-color: #fff;
+		-webkit-box-shadow: 0 0 0px 1000px transparent inset;
+		transition: background-color 5000s ease-in-out 0s;
+		background: -webkit-linear-gradient(
+			top,
+			rgba(255, 255, 255, 0) 0%,
+			rgba(0, 174, 255, 0.04) 50%,
+			rgba(255, 255, 255, 0) 50%,
+			rgba(0, 174, 255, 0.03) 100%
+		);
+	}
+}
+.subscribe-btn {
+	border-radius: 0px 4px 4px 0px;
+	padding: 0 25px;
+}
+.footer__bottom {
+	display: flex;
+	justify-content: space-between;
+}
+.footer__bottom-left {
+}
+.footer__bottom-left-contact {
+}
+.copyright {
+}
+.footer__bottom-left-link {
+}
+.footer__bottom-left-nav {
+}
+.footer__bottom-left-nav-list {
+}
+.footer__bottom-left-nav-item {
+}
+.footer__bottom-left-nav-link {
+}
+.footer__bottom-right {
+}
+.footer__bottom-right-link {
+}
+.footer__bottom-right-nav {
+}
+.footer__bottom-right-nav-list {
+}
+.footer__bottom-right-nav-item {
+}
+.footer__bottom-right-nav-link {
+}
+.footer__bottom-right-btn {
 }
