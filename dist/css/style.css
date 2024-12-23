@@ -631,11 +631,11 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 50px;
 }
 
 .footer__top-left {
   display: inline-block;
-  max-width: 500px;
   margin-right: 15px;
 }
 
@@ -649,6 +649,7 @@ body {
 .footer__top-left p {
   color: var(--grey-footer);
   line-height: 150%;
+  max-width: 75%;
 }
 
 .footer-logo {
@@ -660,10 +661,6 @@ body {
   display: -ms-flexbox;
   display: flex;
   gap: 0 16px;
-}
-
-.footer__top-right {
-  max-width: 500px;
 }
 
 .footer__top-right h4 {
@@ -690,7 +687,7 @@ body {
 #subscribe input {
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 4px 0px 0px 4px;
-  width: 495px;
+  width: 364px;
   height: 44px;
   background: rgba(255, 255, 255, 0.12);
   color: var(--grey-footer);
@@ -757,6 +754,76 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.footer__bottom-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__bottom-left h6 {
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-size: 16px;
+  color: var(--main-light);
+  margin-bottom: 13px;
+}
+
+.footer__bottom-left address {
+  color: var(--grey-footer);
+  font-style: normal;
+  margin-bottom: 8px;
+}
+
+.footer__bottom-left address span {
+  display: inline-block;
+  color: var(--main-light);
+  margin-right: 6px;
+}
+
+.footer__bottom-left a {
+  display: block;
+  color: var(--grey-footer);
+  margin-bottom: 8px;
+}
+
+.footer__bottom-left a span {
+  color: var(--main-light);
+  margin-right: 6px;
+}
+
+.footer__bottom-left-contact {
+  margin-right: 125px;
+}
+
+.copyright {
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: var(--main-light);
+}
+
+.copyright img {
+  margin: 0 4px;
+}
+
+.footer__bottom-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 40%;
+}
+
+.footer__bottom-right-btn {
+  display: inline-block;
 }
 
 .burger {

@@ -7,10 +7,10 @@
 .footer__top {
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 50px;
 }
 .footer__top-left {
 	display: inline-block;
-	max-width: 500px;
 	margin-right: 15px;
 }
 .footer__top-left-social {
@@ -20,6 +20,7 @@
 .footer__top-left p {
 	color: var(--grey-footer);
 	line-height: 150%;
+	max-width: 75%;
 }
 .footer-logo {
 	margin-right: 60px;
@@ -35,7 +36,6 @@
 .social__img {
 }
 .footer__top-right {
-	max-width: 500px;
 }
 .footer__top-right h4 {
 	color: var(--main-light);
@@ -56,7 +56,7 @@
 #subscribe input {
 	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-radius: 4px 0px 0px 4px;
-	width: 495px;
+	width: 364px;
 	height: 44px;
 	background: rgba(255, 255, 255, 0.12);
 	color: var(--grey-footer);
@@ -79,6 +79,7 @@
 		-webkit-text-fill-color: #fff;
 		-webkit-box-shadow: 0 0 0px 1000px transparent inset;
 		transition: background-color 5000s ease-in-out 0s;
+
 		background: -webkit-linear-gradient(
 			top,
 			rgba(255, 255, 255, 0) 0%,
@@ -97,10 +98,45 @@
 	justify-content: space-between;
 }
 .footer__bottom-left {
+	display: flex;
+	justify-content: space-between;
+}
+.footer__bottom-left h6 {
+	font-weight: 700;
+	letter-spacing: 0.06em;
+	font-size: 16px;
+	color: var(--main-light);
+	margin-bottom: 13px;
+}
+.footer__bottom-left address {
+	color: var(--grey-footer);
+	font-style: normal;
+	margin-bottom: 8px;
+}
+.footer__bottom-left address span {
+	display: inline-block;
+	color: var(--main-light);
+	margin-right: 6px;
+}
+.footer__bottom-left a {
+	display: block;
+	color: var(--grey-footer);
+	margin-bottom: 8px;
+}
+.footer__bottom-left a span {
+	color: var(--main-light);
+	margin-right: 6px;
 }
 .footer__bottom-left-contact {
+	margin-right: 125px;
 }
 .copyright {
+	padding-top: 60px;
+	display: flex;
+	color: var(--main-light);
+}
+.copyright img {
+	margin: 0 4px;
 }
 .footer__bottom-left-link {
 }
@@ -113,6 +149,9 @@
 .footer__bottom-left-nav-link {
 }
 .footer__bottom-right {
+	display: flex;
+	justify-content: space-between;
+	width: 40%;
 }
 .footer__bottom-right-link {
 }
@@ -125,4 +164,5 @@
 .footer__bottom-right-nav-link {
 }
 .footer__bottom-right-btn {
+	display: inline-block;
 }
