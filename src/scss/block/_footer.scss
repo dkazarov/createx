@@ -172,8 +172,31 @@
 }
 .footer__bottom-right-nav-item {
 }
-.footer__bottom-right-nav-link {
+.footer__bottom-right-link {
+	align-self: start;
 }
 .footer__bottom-right-btn {
-	display: inline-block;
+	display: flex;
+	height: 40px;
+	align-self: end;
+}
+.footer__bottom-right-btn p {
+	display: flex;
+	font-size: 14px;
+	color: var(--main-light);
+	margin-right: 18px;
+	align-items: flex-end;
+}
+.footer__bottom-right-btn img {
+	width: 40px;
+	height: 40px;
+	border-radius: 4px;
+	padding: 14px 12px;
+	background-color: var(--action-color);
+}
+.footer__bottom-right-btn-inner {
+}
+.footer__bottom-right {
+	display: flex;
+	align-items: flex-end;
 }
