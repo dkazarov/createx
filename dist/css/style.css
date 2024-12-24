@@ -648,7 +648,19 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 24px;
+  width: 390px;
+}
+
+.footer__top-left-social a {
+  max-width: 185px;
+}
+
+.social__link {
+  gap: 16px;
 }
 
 .footer__top-left p {
@@ -665,7 +677,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 0 16px;
 }
 
 .footer__top-right h4 {
@@ -884,6 +895,16 @@ body {
           align-items: flex-end;
 }
 
+@media (max-width: 991px) {
+  .footer__top-left-social {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer__top-left-social img {
+    display: block !important;
+    margin-bottom: 14px !important;
+  }
+}
 .burger {
   position: relative;
   width: 30px;
