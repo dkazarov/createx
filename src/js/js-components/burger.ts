@@ -1,9 +1,8 @@
 const burger = document.querySelector('.burger');
 const burgerLine = document.querySelector('.burger__line');
-const nav = document.querySelector('nav');
-const header = document.querySelector('.header__inner');
+const nav = document.querySelector('header nav');
 const body = document.querySelector('body');
-const navItem = document.querySelectorAll('nav li');     
+const navItem = document.querySelectorAll('header nav li');     
 
 export const burgerOpen = (): void => {
 	burger.addEventListener('click', () => {
