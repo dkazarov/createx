@@ -487,7 +487,6 @@ body {
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: var(--white);
 }
 
 .header__inner {
@@ -592,6 +591,16 @@ header nav a:hover {
   display: none;
 }
 
+@media (max-width: 1040px) {
+  .action__phone {
+    display: none;
+  }
+}
+@media (max-width: 840px) {
+  .action {
+    display: none;
+  }
+}
 @media (max-width: 768px) {
   header nav {
     position: fixed;
@@ -612,30 +621,49 @@ header nav a:hover {
     display: block;
     left: 50%;
     top: 25%;
-    width: 100%;
-    height: 100%;
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
             transform: translateX(-50%);
     text-align: center;
-    font-size: 50px;
-    overflow: auto;
+    font-size: 75px;
   }
   header nav li {
-    margin-bottom: 25px;
+    margin-bottom: 100px;
+  }
+  header nav li:last-child {
+    margin-bottom: 0;
   }
   .burger {
     display: block;
   }
 }
-@media (max-width: 414px) {
+@media (max-width: 576px) {
   header nav ul {
-    font-size: 40px;
+    font-size: 50px;
+  }
+  header nav li {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 430px) {
+  header nav ul {
+    top: 25%;
+  }
+  header nav ul {
+    font-size: 45px;
+  }
+  header nav li {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 375px) {
+  header nav ul {
+    font-size: 35px;
   }
 }
 @media (max-width: 320px) {
-  header nav ul {
-    font-size: 30px;
+  header nav li {
+    margin-bottom: 35px;
   }
 }
 .hero {
