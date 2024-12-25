@@ -382,7 +382,7 @@ template {
   --main-font: "Ubuntu", sans-serif;
   --main-color: --gray-900;
   --white: #fff;
-  --primary: #ff5a30;
+  --action-color: #ff5a30;
   --success: #03cea4;
   --danger: #ff4242;
   --warning: #f89828;
@@ -500,7 +500,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px 0;
+  padding: 18px 0;
   width: 100%;
 }
 
@@ -509,6 +509,7 @@ body {
   z-index: 1;
   margin-right: 15px;
   cursor: pointer;
+  padding-left: 8px;
 }
 
 nav {
@@ -534,6 +535,14 @@ header nav {
 
 header nav a {
   color: var(--gray-800);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-bottom: 2px solid transparent;
+}
+header nav a:hover {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-bottom: 2px solid var(--action-color);
 }
 
 .action {
@@ -570,6 +579,13 @@ header nav a {
   color: var(--gray-900);
   font-size: 18px;
   line-height: 150%;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.action__inner a:hover {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: var(--action-color);
 }
 
 .burger {
