@@ -20,6 +20,15 @@ body.no-scroll {
 	padding: 0;
 	border: none;
 }
+.base--btn {
+	color: var(--white);
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: var(--action-color);
+}
 
 h1 {
 	font-size: 46px;
