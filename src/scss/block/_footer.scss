@@ -23,7 +23,7 @@
 	font-size: 14px;
 	line-height: 150%;
 	color: var(--gray-600);
-	max-width: 750px;
+	max-width: 600px;
 	margin-bottom: 73px;
 }
 .footer__left-contacts h6 {
@@ -67,6 +67,21 @@
 	padding: 0 4px;
 }
 .footer__center {
+	display: flex;
+	align-items: flex-end;
+	width: 25%;
+	margin-bottom: 56px;
+}
+.footer__center h6 {
+	font-weight: 700;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--white);
+	margin-bottom: 13px;
+}
+.footer__center a {
+	font-size: 16px;
+	color: var(--gray-600);
 }
 .footer__right {
 	display: flex;
