@@ -628,6 +628,7 @@ header a:hover {
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     background-color: var(--white);
+    overflow: auto;
   }
   header nav ul {
     position: absolute;
@@ -638,10 +639,10 @@ header a:hover {
         -ms-transform: translateX(-50%);
             transform: translateX(-50%);
     text-align: center;
-    font-size: 75px;
+    font-size: 50px;
   }
   header li {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   header li:last-child {
     margin-bottom: 0;
@@ -661,6 +662,7 @@ header a:hover {
 @media (max-width: 430px) {
   header nav ul {
     top: 25%;
+    text-wrap: nowrap;
   }
   header nav ul {
     font-size: 45px;
@@ -675,6 +677,9 @@ header a:hover {
   }
 }
 @media (max-width: 320px) {
+  header {
+    z-index: 2;
+  }
   header nav li {
     margin-bottom: 35px;
   }
