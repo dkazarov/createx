@@ -38,7 +38,7 @@ header nav {
 	font-weight: 700;
 }
 
-header nav a {
+header a {
 	color: var(--gray-800);
 	transition: all 0.2s ease-in-out;
 	border-bottom: 2px solid transparent;
@@ -121,7 +121,7 @@ header nav a {
 		font-size: 75px;
 		// overflow: auto;
 	}
-	header nav li {
+	header li {
 		margin-bottom: 100px;
 
 		&:last-child {
