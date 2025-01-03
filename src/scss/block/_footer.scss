@@ -5,6 +5,7 @@
 .footer__wrapper {
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 60px;
 }
 .footer__left {
 	display: flex;
@@ -57,7 +58,6 @@
 	margin-bottom: 6px;
 }
 .copiryght {
-	padding-top: 60px;
 	display: flex;
 	font-size: 12px;
 	color: var(--white);
@@ -70,7 +70,7 @@
 	display: flex;
 	align-items: flex-end;
 	width: 25%;
-	margin-bottom: 56px;
+	margin-bottom: -4px;
 }
 .footer__center h6 {
 	font-weight: 700;

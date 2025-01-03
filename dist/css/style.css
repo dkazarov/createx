@@ -694,6 +694,7 @@ header nav a:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 60px;
 }
 
 .footer__left {
@@ -770,7 +771,6 @@ header nav a:hover {
 }
 
 .copiryght {
-  padding-top: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -791,7 +791,7 @@ header nav a:hover {
       -ms-flex-align: end;
           align-items: flex-end;
   width: 25%;
-  margin-bottom: 56px;
+  margin-bottom: -4px;
 }
 
 .footer__center h6 {

@@ -16,8 +16,56 @@
 <body>
 
   <div class="wrapper">
+    <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <img class="logo" src="./images/logo.svg" alt="logo" title="logo" aria-label="Logo" width="140" height="22">
 
-        <main class="main">
+      <nav>
+        <ul>
+          <li>
+            <a href="#">About Us</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">Work</a>
+          </li>
+          <li>
+            <a href="#">News</a>
+          </li>
+          <li>
+            <a href="#">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="action">
+        <div class="action__inner action__phone">
+          <img src="./images/iPhone.svg" alt="call" type="call" width="40" height="40">
+          <div class="action__content">
+            <p>Call us</p>
+            <a href="tel:0">(405) 555-0128</a>
+          </div>
+        </div>
+
+        <div class="action__inner">
+          <img src="./images/chat.svg" alt="chat" type="chat" width="40" height="40">
+          <div class="action__content">
+            <p>Talk to us</p>
+            <a href="mailto:hello@createx.com">hello@createx.com</a>
+          </div>
+        </div>
+      </div>
+
+      <button class="burger btn--reset">
+  <span class="burger__line"></span>
+</button>
+    </div>
+  </div>
+</header>
+    <main class="main">
       <section class="hero" id="hero">
   <div class="container">
     <div class="hero__inner">
@@ -73,10 +121,12 @@
             <h6 class="h6">
               HEAD OFFICE
             </h6>
-            <address>
-              <span>Address:</span>
-              <p>8502 Preston Rd. Inglewood, New York</p>
-            </address>
+            <a href="https://maps.app.goo.gl/N4wARxRWAxqptvdU9" target="_blank">
+              <address>
+                <span>Address:</span>
+                <p>8502 Preston Rd. Inglewood, New York</p>
+              </address>
+            </a>
             <a href="tel:0"><span>Call:</span>(405) 555-0128</a>
             <a href="mailto:hello@createx.com"><span>Email: </span>hello@createx.com</a>
           </div>
