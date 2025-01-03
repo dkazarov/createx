@@ -148,7 +148,7 @@
 .go-to-top {
 	position: absolute;
 	right: 0;
-	bottom: -60px;
+	bottom: -56px;
 	display: flex;
 	width: 129px;
 	height: 20px;
@@ -161,4 +161,16 @@
 }
 .go-to-top img {
 	background-color: var(--action-color);
+}
+
+@media (max-width: 1024px) {
+	.footer__wrapper {
+		position: relative !important;
+	}
+	.footer__center {
+		position: absolute;
+		right: 0;
+		bottom: 6px;
+		z-index: 1;
+	}
 }

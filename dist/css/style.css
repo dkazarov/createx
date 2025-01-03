@@ -915,7 +915,7 @@ header nav a:hover {
 .go-to-top {
   position: absolute;
   right: 0;
-  bottom: -60px;
+  bottom: -56px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -936,6 +936,17 @@ header nav a:hover {
   background-color: var(--action-color);
 }
 
+@media (max-width: 1024px) {
+  .footer__wrapper {
+    position: relative !important;
+  }
+  .footer__center {
+    position: absolute;
+    right: 0;
+    bottom: 6px;
+    z-index: 1;
+  }
+}
 .burger {
   position: relative;
   width: 30px;
