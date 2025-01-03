@@ -110,6 +110,7 @@ header a {
 		display: block;
 		transition: all 0.2s ease-in-out;
 		background-color: var(--white);
+		overflow: auto;
 	}
 	header nav ul {
 		position: absolute;
@@ -118,11 +119,10 @@ header a {
 		top: 25%;
 		transform: translateX(-50%);
 		text-align: center;
-		font-size: 75px;
-		// overflow: auto;
+		font-size: 50px;
 	}
 	header li {
-		margin-bottom: 100px;
+		margin-bottom: 50px;
 
 		&:last-child {
 			margin-bottom: 0;
@@ -146,6 +146,7 @@ header a {
 @media (max-width: 430px) {
 	header nav ul {
 		top: 25%;
+		text-wrap: nowrap;
 	}
 	header nav ul {
 		font-size: 45px;
@@ -162,6 +163,9 @@ header a {
 }
 
 @media (max-width: 320px) {
+	header {
+		z-index: 2;
+	}
 	header nav li {
 		margin-bottom: 35px;
 	}
