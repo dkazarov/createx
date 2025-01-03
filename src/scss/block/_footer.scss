@@ -82,6 +82,12 @@
 .footer__center a {
 	font-size: 16px;
 	color: var(--gray-600);
+	transition: all 0.2s ease-in-out;
+
+	&:hover {
+		transition: all 0.2s ease-in-out;
+		color: var(--white);
+	}
 }
 .footer__right {
 	display: flex;
@@ -117,21 +123,32 @@
 	margin-bottom: 50px;
 }
 .footer__right-bottom {
+	position: relative;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
 }
 .footer__right-bottom h6 {
 	color: var(--white);
+	margin-bottom: 13px;
 }
 .footer__right-bottom a {
 	color: var(--gray-600);
+	transition: all 0.2s ease-in-out;
+
+	&:hover {
+		transition: all 0.2s ease-in-out;
+		color: var(--white);
+	}
 }
 .footer-btn {
 	padding: 18px 25px;
 	border-radius: 0 4px 4px 0;
 }
 .go-to-top {
+	position: absolute;
+	right: 0;
+	bottom: -60px;
 	display: flex;
 	width: 129px;
 	height: 20px;

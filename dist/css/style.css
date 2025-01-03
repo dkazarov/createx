@@ -805,6 +805,13 @@ header nav a:hover {
 .footer__center a {
   font-size: 16px;
   color: var(--gray-600);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.footer__center a:hover {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: var(--white);
 }
 
 .footer__right {
@@ -872,6 +879,7 @@ header nav a:hover {
 }
 
 .footer__right-bottom {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -885,10 +893,18 @@ header nav a:hover {
 
 .footer__right-bottom h6 {
   color: var(--white);
+  margin-bottom: 13px;
 }
 
 .footer__right-bottom a {
   color: var(--gray-600);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.footer__right-bottom a:hover {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: var(--white);
 }
 
 .footer-btn {
@@ -897,6 +913,9 @@ header nav a:hover {
 }
 
 .go-to-top {
+  position: absolute;
+  right: 0;
+  bottom: -60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
