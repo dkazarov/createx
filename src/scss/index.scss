@@ -11,7 +11,8 @@
 @use './block/footer';
 
 //Vendor
-@use '../../node_modules/swiper/swiper-bundle.min.css';
+// @use '../../node_modules/swiper/swiper-bundle.min.css';
+@use '../../node_modules/@splidejs/splide/dist/css/splide.min.css';
 
 // Components
 @use './scss-components/burger';

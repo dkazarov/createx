@@ -1,17 +1,13 @@
 .hero {
 	position: relative;
 	scroll-margin-top: 84px;
-	height: calc(100vh - 84px);
-	overflow: hidden;
 }
 .hero__inner {
 	position: absolute;
 	left: 344px;
 	top: 180px;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
 }
+
 .hero__inner h1 {
 	font-weight: 700;
 	font-size: 72px;
@@ -31,20 +27,6 @@
 	max-width: 570px;
 	margin-bottom: 57px;
 }
-.hero-slider {
-}
-.swiper-wrapper {
-}
-.swiper-slide {
-}
-.swiper-pagination {
-}
-.swiper-button-prev {
-}
-.swiper-button-next {
-}
-.btn--reset {
-}
 .hero__btn--transparent {
 	color: var(--white);
 	border: 1px solid var(--white);
@@ -59,4 +41,37 @@
 .hero__btn {
 	padding: 10px 40px;
 	line-height: 200%;
+}
+
+.splide__slide {
+	height: calc(100vh - 84px) !important;
+}
+
+.splide__pagination {
+	counter-reset: pagination-num;
+	margin-bottom: 50px !important;
+}
+
+.splide__pagination__page:before {
+	counter-increment: pagination-num;
+	content: counter(pagination-num);
+	display: flex;
+	position: absolute;
+	top: -40px;
+	font-weight: 700;
+	font-size: 28px;
+	color: var(--white);
+}
+
+.splide__pagination__page {
+	width: 200px !important;
+	border-radius: 0 !important;
+	height: 2px !important;
+	margin-right: 30px !important;
+	left: -140px !important;
+}
+
+.splide__pagination__page.is-active {
+	width: 145px !important;
+	margin-left: 30px !important;
 }

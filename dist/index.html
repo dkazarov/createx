@@ -67,40 +67,45 @@
 </header>
     <main class="main">
       <section class="hero" id="hero">
-  <div class="hero-slider">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <picture><source srcset="./images/hero-slide-01.webp" type="image/webp"><img src="./images/hero-slide-01.jpg" alt=""></picture>
-      </div>
-      <div class="swiper-slide">
-        <picture><source srcset="./images/hero-slide-01.webp" type="image/webp"><img src="./images/hero-slide-01.jpg" alt=""></picture>
-      </div>
-      <div class="swiper-slide">
-        <picture><source srcset="./images/hero-slide-01.webp" type="image/webp"><img src="./images/hero-slide-01.jpg" alt=""></picture>
-      </div>
-      <div class="swiper-slide">
-        <picture><source srcset="./images/hero-slide-01.webp" type="image/webp"><img src="./images/hero-slide-01.jpg" alt=""></picture>
-      </div>
+
+  <div class="splide" aria-labelledby="carousel-heading">
+
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide">
+          <picture><source srcset="./images/hero-slide-01.webp" type="image/webp"><img src="./images/hero-slide-01.jpg" alt=""></picture>
+        </li>
+        <li class="splide__slide">
+          <picture><source srcset="./images/hero-slide-01.webp" type="image/webp"><img src="./images/hero-slide-01.jpg" alt=""></picture>
+        </li>
+        <li class="splide__slide">
+          <picture><source srcset="./images/hero-slide-01.webp" type="image/webp"><img src="./images/hero-slide-01.jpg" alt=""></picture>
+        </li>
+        <li class="splide__slide">
+          <picture><source srcset="./images/hero-slide-01.webp" type="image/webp"><img src="./images/hero-slide-01.jpg" alt=""></picture>
+        </li>
+      </ul>
     </div>
-    <div class="swiper-pagination"></div>
-
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-
   </div>
+
+  <div class="splide__arrows"></div>
+  <div class="container">
+    <ul class="splide__pagination"></ul>
+  </div>
+
 
   <div class="container">
     <div class="hero__inner">
-          <h1>CREATE<span>X</span> CONSTRUCTION</h1>
-          <p>Cras ultrices leo vitae non viverra. Fringilla nisi quisque consequat, dignissim vitae proin ipsum sed.
-            Pellentesque nec
-            turpis purus eget pellentesque integer ipsum elementum felis.
-          </p>
-          <button class="btn--reset hero__btn--transparent">Learn more about us</button>
-          <button class="btn--reset base--btn hero__btn">SUBMIT REQUEST</button>
+      <h1>CREATE<span>X</span> CONSTRUCTION</h1>
+      <p>Cras ultrices leo vitae non viverra. Fringilla nisi quisque consequat, dignissim vitae proin ipsum sed.
+        Pellentesque nec
+        turpis purus eget pellentesque integer ipsum elementum felis.
+      </p>
+      <button class="btn--reset hero__btn--transparent">Learn more about us</button>
+      <button class="btn--reset base--btn hero__btn">SUBMIT REQUEST</button>
     </div>
-
   </div>
+
 
 </section>
     </main>
