@@ -50,5 +50,8 @@
 		"ts-loader": "^9.5.1",
 		"typescript": "^5.7.2",
 		"webpack-stream": "^7.0.0"
+	},
+	"dependencies": {
+		"swiper": "^11.2.0"
 	}
 }
