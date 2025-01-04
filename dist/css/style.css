@@ -420,8 +420,9 @@ body.no-scroll {
 
 .base--btn {
   color: var(--white);
+  border-radius: 4px;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   text-align: center;
@@ -685,7 +686,58 @@ header nav a:hover {
   }
 }
 .hero {
+  position: relative;
   scroll-margin-top: 84px;
+  height: calc(100vh - 84px);
+  overflow: hidden;
+}
+
+.hero__inner {
+  position: absolute;
+  left: 344px;
+  top: 180px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.hero__inner h1 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 130%;
+  color: var(--white);
+  max-width: 500px;
+  letter-spacing: 0.01em;
+  margin-bottom: 24px;
+}
+
+.hero__inner h1 span {
+  color: var(--action-color);
+}
+
+.hero__inner p {
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--white);
+  max-width: 570px;
+  margin-bottom: 57px;
+}
+
+.hero__btn--transparent {
+  color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  padding: 14px 54px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 16px;
+  margin-right: 21px;
+  cursor: pointer;
+}
+
+.hero__btn {
+  padding: 10px 40px;
+  line-height: 200%;
 }
 
 .footer__inner {
