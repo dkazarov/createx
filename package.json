@@ -52,7 +52,6 @@
 		"webpack-stream": "^7.0.0"
 	},
 	"dependencies": {
-		"@splidejs/splide": "^4.1.4",
-		"swiper": "^11.2.0"
+		"@splidejs/splide": "^4.1.4"
 	}
 }
