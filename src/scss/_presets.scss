@@ -30,6 +30,12 @@ body.no-scroll {
 	text-align: center;
 	background-color: var(--action-color);
 	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+
+	&:hover {
+		background-color: var(--danger);
+		transition: background-color 0.2s ease-in-out;
+	}
 }
 
 h1 {

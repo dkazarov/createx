@@ -383,6 +383,7 @@ template {
   --main-color: --gray-900;
   --white: #fff;
   --action-color: #ff5a30;
+  --action-color--hover: #ec3f13;
   --success: #03cea4;
   --danger: #ff4242;
   --warning: #f89828;
@@ -428,6 +429,13 @@ body.no-scroll {
   text-align: center;
   background-color: var(--action-color);
   cursor: pointer;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+.base--btn:hover {
+  background-color: var(--danger);
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }
 
 h1 {
@@ -687,8 +695,8 @@ header nav a:hover {
 }
 .hero {
   position: relative;
-  scroll-margin-top: 84px;
   overflow: hidden !important;
+  scroll-margin-top: 84px !important;
 }
 
 .hero__inner {
@@ -729,6 +737,13 @@ header nav a:hover {
   font-size: 16px;
   margin-right: 21px;
   cursor: pointer;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+.hero__btn--transparent:hover {
+  background-color: var(--gray-800);
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .hero__btn {
