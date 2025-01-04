@@ -688,6 +688,7 @@ header nav a:hover {
 .hero {
   position: relative;
   scroll-margin-top: 84px;
+  overflow: hidden !important;
 }
 
 .hero__inner {
@@ -733,6 +734,10 @@ header nav a:hover {
 .hero__btn {
   padding: 10px 40px;
   line-height: 200%;
+}
+
+.splide {
+  overflow: hidden !important;
 }
 
 .splide__slide {
