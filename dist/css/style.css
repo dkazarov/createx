@@ -695,7 +695,6 @@ header nav a:hover {
 }
 .hero {
   position: relative;
-  overflow: hidden !important;
   scroll-margin-top: 84px !important;
 }
 
@@ -710,7 +709,7 @@ header nav a:hover {
   font-size: 72px;
   line-height: 130%;
   color: var(--white);
-  max-width: 500px;
+  max-width: 600px;
   letter-spacing: 0.01em;
   margin-bottom: 24px;
 }
@@ -751,19 +750,15 @@ header nav a:hover {
   line-height: 200%;
 }
 
-.splide {
-  overflow: hidden !important;
-}
-
 .splide__slide {
-  height: calc(100vh - 84px) !important;
+  width: 100% !important;
   -webkit-filter: brightness(75%);
           filter: brightness(75%);
 }
 
 .splide__pagination {
   counter-reset: pagination-num;
-  margin-bottom: 50px !important;
+  margin-bottom: 60px !important;
 }
 
 .splide__pagination__page:before {
@@ -792,6 +787,76 @@ header nav a:hover {
   margin-left: 30px !important;
 }
 
+@media (max-width: 1199px) {
+  .splide__pagination {
+    display: none !important;
+  }
+  .hero__inner {
+    top: 10%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+  }
+  .hero__inner h1 {
+    margin: 0 auto;
+    margin-bottom: 2%;
+  }
+  .hero__inner p {
+    margin: 0 auto;
+    margin-bottom: 5%;
+  }
+}
+@media (max-width: 767px) {
+  .hero__inner h1 {
+    font-size: 50px;
+  }
+  .splide__arrows {
+    display: none;
+  }
+  .hero__inner p {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+}
+@media (max-width: 575px) {
+  .hero__inner h1 {
+    font-size: 35px;
+  }
+  .splide__arrows {
+    display: none;
+  }
+  .hero__inner p {
+    font-size: 14px;
+  }
+  .hero__btn--transparent {
+    padding: 10px;
+  }
+  .hero__btn {
+    padding: 5px;
+  }
+}
+@media (max-width: 420px) {
+  .hero__inner h1 {
+    font-size: 30px;
+  }
+  .hero__btn--transparent {
+    display: none;
+  }
+}
+@media (max-width: 383px) {
+  .hero__inner h1 {
+    font-size: 20px;
+  }
+  .hero__inner p {
+    font-size: 12px;
+  }
+  .hero__btn--transparent {
+    display: none;
+  }
+}
 .footer__inner {
   background-color: var(--gray-900);
   padding: 80px 0;
